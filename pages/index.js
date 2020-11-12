@@ -1,32 +1,10 @@
-import {
-  Container,
-  Row,
-  Col,
-  Navbar,
-  Nav,
-  Media,
-  Image,
-  Card,
-} from 'react-bootstrap'
+import { Container, Row, Col, Media, Image, Card } from 'react-bootstrap'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
     <Container>
-      {/* NAVBAR STARTS */}
-      <Navbar className='fj-navbar fj-nav-base' bg='transparent' expand='lg'>
-        <Navbar.Brand className='fj-navbar-brand'>
-          <a href='#'>Filip-Jerga</a>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='ml-auto'>
-            <Nav.Link className='fj-navbar-item fj-navbar-link' href='/'>
-              Home
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      {/* NAVBAR ENDS */}
+      <Navbar />
       <div className='blog-detail-page'>
         <Row>
           <Col md='8'>
