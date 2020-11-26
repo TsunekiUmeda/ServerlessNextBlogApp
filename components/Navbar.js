@@ -19,4 +19,4 @@ const BlogNavbar = () => {
   )
 }
 
-export default Navbar
+export default BlogNavbar
